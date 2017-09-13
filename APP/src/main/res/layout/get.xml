@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edsend"
+        android:layout_gravity="center_horizontal"
+        android:hint="rahul is"/>
+
+    <TextView
+        android:layout_below="@+id/bsaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvgot" />
+
+    <Button
+        android:layout_below="@+id/edsend"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StartActivity"
+        android:id="@+id/bsa" />
+
+    <Button
+        android:layout_toLeftOf="@+id/bsa"
+        android:layout_alignTop="@+id/bsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StartActivityFor Result"
+        android:id="@+id/bsaf" />
+</RelativeLayout>
