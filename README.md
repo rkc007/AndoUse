@@ -14,5 +14,6 @@ I chose Android Studio for building this App.
 * ActionBarSherlock
 * MobiNavControl
 * Custom Authentication
+* JakeWartonBar
 
 
