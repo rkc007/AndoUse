@@ -9,8 +9,10 @@ Through this platform one can learn Android from basic to Intermediate.
 
 # Software tools used
 I chose Android Studio for building this App.
-Packages
+
+# Packages
 * ActionBarSherlock
 * MobiNavControl
 * Custom Authentication
+
 
